@@ -1,0 +1,21 @@
+{
+  "name": "bmoFace",
+  "version": "0.0.1",
+  "description": "Making BMO faces",
+  "author": "Josephine Chen <jychen@g.hmc.edu>",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "clmtrackr": "^1.1.2",
+    "dat.gui": "^0.6.1",
+    "express": "^4.14.1",
+    "nodemon": "^1.11.0",
+    "tracking": "^1.1.3"
+  }
+}
